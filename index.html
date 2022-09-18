@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta Desc -->
+    <meta name="description" content="McDonalds.com is your hub for everything McDonald's.
+    Find out more about our menu items and promotions today!">
+    <!-- Title -->
+    <title>McDonald's: Burgers, Fries & More. Quality Ingredients.</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link JAVASCRIPT -->
+    <script src="js/main.js" defer></script>
+    <!-- Add ICON -->
+    <link rel="icon" href="images/McDonald's.png">
+    <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <div class="img-and-header">
+                <div class="mylogo">
+                    <img src="images/McDonald's.png" alt="" srcset="">
+                </div>
+                <!-- Start The Bar Only for <1200px -->
+                <i id="bar" class="fa-solid fa-bars"></i>
+                <div class="bar-content">
+                    <ul>
+                        <i class="fa-solid fa-xmark"></i>
+                        <li><a href="#">Language</a>
+                            <span id="showlanginbar">
+                                <i class="fa-solid fa-minus"></i>
+                                <i class="fa-solid fa-plus"></i>
+                                <!-- <i class="fa-brands fa-youtube"></i>
+                                <i class="fa-brands fa-twitter"></i> -->
+                            </span>
+                            <div id="edit-lang-all">
+                                <p id="eng">English<i class="fa-solid fa-check"></i></p>
+                                <p id="esp">Español</p>
+                            </div>
+                        </li>
+                        <li><a href="#">Sign Up for Email</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <hr>
+                        <li><a href="#">Our Menu</a>
+                            <span id="showmenuinbar">
+                                <i class="fa-solid fa-minus"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </span>
+                            <!-- Show Menu -->
+                            <div id="edit-menu-all">
+                                <button class="view-full">View Full Menu</button>
+                                <div>
+                                    <img src="images/drinks_300x300_menu-category-desktop.jpg" alt="">
+                                    <p>Beverages</p>
+                                </div>
+                                <div>
+                                    <img src="images/breakfast_300x300_menu-category-desktop.jpg" alt="">
+                                    <p>Breakfast</p>
+                                </div>
+                                <div>
+                                    <img src="images/burgers_300x300_menu-category-desktop.jpg" alt="">
+                                    <p>Burgers</p>
+                                </div>
+                                <div>
+                                    <img src="images/chicken_sandwiches_300x300_menu-category-desktop.jpg" alt="">
+                                    <p>Chicken & Sandwiches</p>
+                                </div>
+                                <div>
+                                    <img src="images/nav_combo_meal_160x160__menu-category-desktop.jpg" alt="">
+                                    <p>Combo Meal</p>
+                                </div>
+                                <div>
+                                    <img src="images/desserts_shakes_300x300_menu-category-desktop.jpg" alt="">
+                                    <p>Desserts & Shakes</p>
+                                </div>
+                                <div>
+                                    <img src="images/nav_happy_meal_160x160_menu-category-desktop.jpg" alt="">
+                                    <p>Happy Meal®</p>
+                                </div>
+                                <div>
+                                    <img src="images/mccafe_300x300_menu-category-desktop.jpg" alt="">
+                                    <p>McCafé® Drinks</p>
+                                </div>
+                                <div>
+                                    <img src="images/Menu_LeftRail_mcd-160x160_menu-category-desktop.jpg" alt="">
+                                    <p>McCafé® Bakery</p>
+                                </div>
+                                <div>
+                                    <img src="images/snacks_sides_300x300_menu-category-desktop.jpg" alt="">
+                                    <p>Snacks & Sides</p>
+                                </div>
+                                <div>
+                                    <img src="images/D123_160x160_menu-category-desktop.jpg" alt="">
+                                    <p>$1 $2 $3 Dollar Menu*</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!--End Show Menu  -->
+                        <li><a href="#">Download App</a></li>
+                        <li><a href="#">MyMcDonald’s Rewards</a></li>
+                        <li><a href="#">Exclusive Deals</a></li>
+                        <li><a href="#">About Our Food</a></li>
+                        <li><a href="#">Locate</a></li>
+                        <hr>
+                        <li id="sear-locat"><a href="#">Search</a><i class="fa-solid fa-magnifying-glass"></i></li>
+                        <li id="sear-locat"><a id="loc" href="#">Change your Location</a><i
+                                class="fa-solid fa-location-dot"></i></li>
+                        <hr>
+                    </ul>
+                </div>
+                <!-- Finish The Bar Only for <1200px -->
+                <div class="two-headers">
+                    <!-- Start First Header -->
+                    <div class="first-header">
+                        <div class="first-left">
+                            <ul>
+                                <!-- Start edit bar do it into a for position -->
+                                <li><a id="language" href="#">Language<i class="fa-solid fa-angle-down"></i>
+                                        <div id="edit-lang">
+                                            <p id="eng">English<i class="fa-solid fa-check"></i></p>
+                                            <p id="esp">Español</p>
+                                        </div>
+                                    </a></li>
+                                <!-- Finish edit bar do it into a for position -->
+                                <li><a href="#">Sign Up for Email</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </div>
+                        <div class="first-right">
+                            <ul>
+                                <li><a id="search" href="#"><i class="fa-solid fa-magnifying-glass"></i>Search</a></li>
+                                <li><a id="location" href="#"><i class="fa-solid fa-location-dot"></i>Change your
+                                        Location</a></li>
+                                <li><a id="order" href="#">Order Now</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Start Second Header -->
+                    <div class="second-header">
+                        <ul>
+                            <li><a id="menu" href="#">Our Menu<i class="fa-solid fa-angle-down"></i>
+                                    <div id="edit-menu">
+                                        <div class="edit">
+                                            <div id="edit-menu-left">
+                                                <div>
+                                                    <img src="images/drinks_300x300_menu-category-desktop.jpg" alt="">
+                                                    <p>Beverages</p>
+                                                </div>
+                                                <div>
+                                                    <img src="images/breakfast_300x300_menu-category-desktop.jpg"
+                                                        alt="">
+                                                    <p>Breakfast</p>
+                                                </div>
+                                                <div>
+                                                    <img src="images/burgers_300x300_menu-category-desktop.jpg" alt="">
+                                                    <p>Burgers</p>
+                                                </div>
+                                                <div>
+                                                    <img src="images/chicken_sandwiches_300x300_menu-category-desktop.jpg"
+                                                        alt="">
+                                                    <p>Chicken & Sandwiches</p>
+                                                </div>
+                                            </div>
+                                            <div id="edit-menu-center">
+                                                <div>
+                                                    <img src="images/nav_combo_meal_160x160__menu-category-desktop.jpg"
+                                                        alt="">
+                                                    <p>Combo Meal</p>
+                                                </div>
+                                                <div>
+                                                    <img src="images/desserts_shakes_300x300_menu-category-desktop.jpg"
+                                                        alt="">
+                                                    <p>Desserts & Shakes</p>
+                                                </div>
+                                                <div>
+                                                    <img src="images/nav_happy_meal_160x160_menu-category-desktop.jpg"
+                                                        alt="">
+                                                    <p>Happy Meal®</p>
+                                                </div>
+                                                <div>
+                                                    <img src="images/mccafe_300x300_menu-category-desktop.jpg" alt="">
+                                                    <p>McCafé® Drinks</p>
+                                                </div>
+                                            </div>
+                                            <div id="edit-menu-right">
+                                                <div>
+                                                    <img src="images/Menu_LeftRail_mcd-160x160_menu-category-desktop.jpg"
+                                                        alt="">
+                                                    <p>McCafé® Bakery</p>
+                                                </div>
+                                                <div>
+                                                    <img src="images/snacks_sides_300x300_menu-category-desktop.jpg"
+                                                        alt="">
+                                                    <p>Snacks & Sides</p>
+                                                </div>
+                                                <div>
+                                                    <img src="images/D123_160x160_menu-category-desktop.jpg" alt="">
+                                                    <p>$1 $2 $3 Dollar Menu*</p>
+                                                </div>
+                                            </div>
+                                            <button class="view-full">View Full Menu</button>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li><a href="#">Download App</a></li>
+                            <li><a href="#">MyMcDonald's Rewards</a></li>
+                            <li><a href="#">Exclusive Deals</a></li>
+                            <li><a href="#">About Our Food</a></li>
+                            <li><a href="#">Locate</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Finish Header -->
+    <!-- Start Content -->
+    <main>
+        <div class="container">
+            <div class="all-content">
+                <div class="content">
+                    <div class="left-content">
+                        <img src="images/1PUB_CelebratingTheCrew_1168x520-min.jpg" alt="" srcset="" width="1168" height="auto">
+                    </div>
+                    <div class="right-content">
+                        <h2>Let’s Celebrate Restaurant Crew and Managers</h2>
+                        <p>Join us by sharing a story about your favorite experience with one of the crew members or
+                            managers.*</p>
+                        <p id="small-text">*Most McDonald’s restaurants are operated by independent franchisees who are
+                            solely responsible for setting the employment policies and practices, including pay and
+                            benefits, for the people working in their restaurants. McDonald’s USA has no control over
+                            employment matters at any franchisee’s restaurant(s).</p>
+                        <button>Submit Your Story</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="left-content">
+                        <img src="images/1pub_LargeFries-v5Loyalty_1168x520-min.jpg" alt="" srcset="">
+                    </div>
+                    <div class="right-content">
+                        <h2>Free Fries Now. Free McDonald’s Later.*</h2>
+                        <p>Get free large Fries when you download the McDonald’s app and join MyMcDonald’s Rewards.
+                            Then, unlock free McDonald’s faves only in the app with <span>1500 bonus points</span> after
+                            your first
+                            purchase.</p>
+                        <p id="small-text">*Most McDonald’s restaurants are operated by independent franchisees who are
+                            solely responsible for setting the employment policies and practices, including pay and
+                            benefits, for the people working in their restaurants. McDonald’s USA has no control over
+                            employment matters at any franchisee’s restaurant(s).</p>
+                        <button>Download the App</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="left-content">
+                        <img src="images/CCS_Aug22Rehit_1pub_1168x520-min.jpg" alt="" srcset="">
+                    </div>
+                    <div class="right-content">
+                        <h2>$5 Crispy Chicken Sandwich Meal</h2>
+                        <p>Thru 9/4, get any Crispy, Spicy or Deluxe Chicken Sandwich with medium World Famous Fries and
+                            Soft Drink for only $5. And hold on to that bag—those crispy crumbs left behind are a tasty
+                            grand finale.</p>
+                        <p id="small-text">*Valid 1/x a week. App download and registration required. At participating
+                            McDonald’s. </p>
+                        <button>Order in the App</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="left-content">
+                        <img src="images/1PUB_BAPG_DotCom_ChangeLeaders_1168x520-min.jpg" alt="" srcset="">
+                    </div>
+                    <div class="right-content">
+                        <h2>Lead The Change</h2>
+                        <p>To all those feeding and fostering community by embracing your passion, apply for a chance to
+                            be a McDonald’s® Black & Positively Golden® Change Leader and ignite your story. Whether you
+                            are an activist, financial guru, artist or creator, McDonald’s is empowering those who are
+                            leading change.
+                        <p>
+                            <button>Apply Now to be a Change Leader</button>
+                    </div>
+                </div>
+                <!-- Here One Girl I Dont Do it -->
+                <div class="content">
+                    <div class="left-content">
+                        <img src="images/1PUB_McDelivery_v4_1168x520-min.jpg" alt="" srcset="">
+                    </div>
+                    <div class="right-content">
+                        <h2>Order McDelivery® Now*</h2>
+                        <p>Get all your McDonald’s favorites delivered right to your doorstep with McDelivery® on Uber
+                            Eats, DoorDash or Grubhub.
+                        <p>
+                        <p id="small-text">*At participating McDonald’s. Prices may be higher than at restaurants.
+                            Delivery/service fees apply
+                        <p>
+                            <button>Order McDelivery Now</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="left-content">
+                        <img src="images/1PUB_Desktop_Deals-v1_1168x520-min.jpg" alt="" srcset="">
+                    </div>
+                    <div class="right-content">
+                        <h2>Deals for Days</h2>
+                        <p>Get <span>exclusive deals</span> on your McDonald’s favorites in the app with contactless
+                            Mobile Order & Pay* and convenient Drive Thru or Curbside pickup.
+                        <p>
+                        <p id="small-text">*Mobile Order & Pay at participating McDonald’s.
+                        <p>
+                            <button>Get App Deals</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <div class="all-content">
+                <div class="footer-content">
+                    <div class="about">
+                        <span>
+                            <h2>About Us</h2>
+                            <span id="about-btn">
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </span>
+                        </span>
+                        <ul class="about-content">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our History</a></li>
+                            <li><a href="#">Leadership Team</a></li>
+                            <li><a href="#">Values In Action</a></li>
+                            <li><a href="#">Franchise Info</a></li>
+                            <li><a href="#">Recalls & Alerts</a></li>
+                            <li><a href="#">Real Estate</a></li>
+                            <li><a href="#">Digital Accessibility</a></li>
+                            <li><a href="#">Investor Relations</a></li>
+                            <li><a href="#">News & Notifications</a></li>
+                        </ul>
+                    </div>
+                    <div class="about">
+                        <span>
+                            <h2>Services</h2>
+                            <span id="about-btn">
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </span>
+                        </span>
+                        <ul class="about-content">
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Wi-Fi</a></li>
+                            <li><a href="#">Gift Cards</a></li>
+                            <li><a href="#">PlayPlaces & Parties</a></li>
+                            <li><a href="#">McDelivery®</a></li>
+                            <li><a href="#">Mobile Order & Pay</a></li>
+                            <li><a href="#">Trending Now</a></li>
+                            <li><a href="#">McDonald’s Merchandise</a></li>
+                            <li><a href="#">Family Fun Hub</a></li>
+                            <li><a href="#">MyMcDonald’s Rewards</a></li>
+                            <li><a href="#">McCafé®</a></li>
+                        </ul>
+                    </div>
+                    <div class="about">
+                        <span>
+                            <h2>Community</h2>
+                            <span id="about-btn">
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </span>
+                        </span>
+                        <ul class="about-content">
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">HACER® Scholarships <br>for Hispanic Students</a></li>
+                            <li><a href="#">Ronald McDonald House <br>Charities</a></li>
+                            <li><a href="#">McDonald’s Asian Pacific <br>American</a></li>
+                            <li><a href="#">McDonald’s International</a></li>
+                            <li><a href="#">Recalls & Alerts</a></li>
+                            <li><a href="#">Black and Positively <br>Golden</a></li>
+                            <li><a href="#">McDonald’s LGBTQ+</a></li>
+                        </ul>
+                    </div>
+                    <div class="about">
+                        <span>
+                            <h2>Contact Us</h2>
+                            <span id="about-btn">
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </span>
+                        </span>
+                        <ul class="about-content">
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Gift Card FAQs</a></li>
+                            <li><a href="#">Donations</a></li>
+                            <li><a href="#">Employment</a></li>
+                            <li><a href="#">Restaurant Feedback</a></li>
+                            <li><a href="#">Frequently Asked <br>Quesions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="medias">
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-tumblr"></i>
+                        <i class="fa-brands fa-spotify"></i>
+                    </div>
+                    <div class="stores">
+                        <img src="images/app_store_badge-min.png" alt="">
+                        <img src="images/google_play_badge-min.png" alt="">
+                    </div>
+                </div>
+                <hr id="horizon">
+                <!-- <span id="myHor"></span> -->
+                <div class="last-footer">
+                    <div class="last-footer-left">
+                        <a id="privacy" href="#">Privacy (Updated)</a>
+                        <a href="#">California Privacy Notice</a>
+                        <a href="#">Terms & Conditions</a>
+                        <a href="#">Digital Accessibility</a>
+                        <a href="#">Do Not Sell My Personal Information</a>
+                        <a id="cookie" href="#">Cookie Setting</a>
+                    </div>
+                    <div class="last-footer-right">
+                        <img src="images/arches-logo_108x108-min.jpg" alt="">
+                        <p>© 2017 - 2022 McDonald's. All Rights <br><span>Reserved</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
